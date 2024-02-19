@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #d-wrapper {
+        background-color: #fff;
+    }
+
+    #d-wrapper * {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    #d-wrapper div.sep {
+        min-height: 200px;
+        padding: 32px 0;
+
+    }
+
+    #d-wrapper .zig-zag-top:before {
+        background:
+            linear-gradient(-45deg, #1ba1e2 16px, red 16px, blue 16px, transparent 0),
+            linear-gradient(45deg, #1ba1e2 16px, transparent 0);
+        background-position: left top;
+        background-repeat: repeat-x;
+        background-size: 22px 32px;
+        content: " ";
+        display: block;
+
+        height: 32px;
+        width: 100%;
+
+        position: relative;
+        bottom: 64px;
+        left: 0;
+    }
+
+    #d-wrapper div>* {
+        margin: 0 40px;
+    }
+
+    #d-wrapper .zig-zag-bottom {
+        margin: 32px 0;
+        margin-top: 0;
+        background: #1ba1e2;
+    }
+
+
+
+    #d-wrapper .zig-zag-bottom {
+        padding: 32px 0;
+    }
+
+    #d-wrapper p,
+    #d-wrapper h1 {
+        font-size: 2em;
+        text-align: center;
+        color: #fff;
+        font-family: "PT Sans Narrow", "Fjalla One", sans-serif;
+        font-weight: 900;
+        text-shadow: 1px 1px 0 #1b90e2, 2px 2px 0 #1b90e2, 3px 3px 0 #1b90e2, 4px 4px 0 #1b90e2, 5px 5px 0 #1b90e2;
+
+    }
+
+    #d-wrapper div.sep p,
+    #d-wrapper div.sep h1 {
+        text-shadow: 1px 1px 0 #888, 2px 2px 0 #888, 3px 3px 0 #888, 4px 4px 0 #888, 5px 5px 0 #888;
+        color: #fff;
+    }
+
+    #d-wrapper h1 {
+        font-size: 4em;
+    }
+
+    #d-wrapper .zig-zag-bottom:after {
+        background:
+            linear-gradient(-45deg, transparent 16px, #1ba1e2 0),
+            linear-gradient(45deg, transparent 16px, #1ba1e2 0);
+        background-repeat: repeat-x;
+        background-position: left bottom;
+        background-size: 22px 32px;
+        content: "";
+        display: block;
+
+        width: 100%;
+        height: 32px;
+
+        position: relative;
+        top: 64px;
+        left: 0px;
+    }
+
+    #d-wrapper p {
+        text-align: center;
+    }
+
+    #d-wrapper p:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+
+    p {
+        text-align: center;
+
+
+    }
+
+    .auth {
+        text-decoration: overline;
+        color: #999;
+        font-size: 2em;
+    }
+
+    .bigcontainer {
+        display: flex;
+        justify-content: center;
+        height: 1000px;
+        width: 100vw;
+    }
+</style>
+
+<body>
+
+    <div class="bigcontainer">
+        <div id="d-wrapper">
+            <div class="zig-zag-bottom">
+                <h1>SUDOKU rules</h1>
+                <h1 style="font-family: sans-serif;"> Sudoku is played on a grid of 9 x 9 spaces. <br>Within the rows
+                    and columns are 9 “squares”
+                    (made up of 3 x 3 spaces). Each
+                    row, column and square (9 spaces each) needs to be filled out with the numbers 1-9,
+                    without repeating any
+                    numbers within
+                    the row, column or square.
+                    <br>:)
+                </h1>
+
+
+            </div>
+
+
+        </div>
+</body>
+
+</html>

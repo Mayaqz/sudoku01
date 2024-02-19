@@ -1,0 +1,57 @@
+#score {
+  text-align: center;
+}
+#game {
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+  margin: auto;
+  /* background-image: url("https://thumbs.dreamstime.com/b/landscape-game-background-game-black-white-background-vector-illustration-you-project-87964651.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dino {
+  height: 75px;
+  width: 75px;
+  position: relative;
+  top: 225px;
+  background-image: url("https://play-lh.googleusercontent.com/iiIJq5JmLFYNI1bVz4IBHyoXs508JcEzHhOgau69bnveF9Wat51-ax9LMPVOlneKwqg");
+  background-size: cover;
+  animation: jump 0.5s;
+}
+#rock {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 175px;
+  left: 550px;
+  background-size: cover;
+  background-image: url("https://piskel-imgstore-b.appspot.com/img/e0832b9c-b907-11ee-86a2-e57774644c61.gif");
+  animation: rock 1.33s infinite;
+}
+@keyframes rock {
+  0% {
+    left: 550px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.jump-animation {
+  animation: jump 0.5s;
+}
+@keyframes jump {
+  0% {
+    top: 225px;
+  }
+  50% {
+    top: 75px;
+  }
+  75% {
+    top: 75px;
+  }
+  100% {
+    top: 225px;
+  }
+}

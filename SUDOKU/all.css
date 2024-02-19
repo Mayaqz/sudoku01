@@ -1,0 +1,97 @@
+.allSudoku {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* border: 1px solid black; */
+}
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+.sudo1 {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 250px;
+}
+.sudo2 {
+  border: 1px solid black;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+.sudo3 {
+  border: 1px solid black;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+.sudo4 {
+  border: 1px solid black;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+.sudo5 {
+  border: 1px solid black;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+.sudo6 {
+  border: 1px solid black;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+}
+.allSudoku1 {
+  display: flex;
+  height: 800px;
+  gap: 10px;
+
+  flex-direction: row;
+  justify-content: space-around;
+}
+.allSudoku2 {
+  display: flex;
+  height: 500px;
+
+  width: 250px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+span {
+  color: #1ba1e2;
+  margin-left: 10px;
+}
+.dood1 {
+  height: 400px;
+  width: 100vw;
+  background-color: #1ba1e2;
+  border: 3px solid black;
+  /* white-space: normal; */
+  margin-left: -10px;
+  margin-bottom: -10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
